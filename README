@@ -1,0 +1,11 @@
+links to setup:
+
+lrwxr-xr-x    1 amarsarvepalli  staff      19 Jan 28 20:20 .gitconfig -> .dotfiles/gitconfig
+lrwxr-xr-x    1 amarsarvepalli  staff      13 Jan 28 20:20 .vim -> .dotfiles/vim
+lrwxr-xr-x    1 amarsarvepalli  staff      15 Jan 28 20:20 .vimrc -> .dotfiles/vimrc
+lrwxr-xr-x    1 amarsarvepalli  staff      32 Jan 28 20:22 .zlogin -> .dotfiles/zprezto/runcoms/zlogin
+lrwxr-xr-x    1 amarsarvepalli  staff      33 Jan 28 20:22 .zlogout -> .dotfiles/zprezto/runcoms/zlogout
+lrwxr-xr-x    1 amarsarvepalli  staff      35 Jan 28 20:22 .zpreztorc -> .dotfiles/zprezto/runcoms/zpreztorc
+lrwxr-xr-x    1 amarsarvepalli  staff      34 Jan 28 20:23 .zprofile -> .dotfiles/zprezto/runcoms/zprofile
+lrwxr-xr-x    1 amarsarvepalli  staff      32 Jan 28 20:23 .zshenv -> .dotfiles/zprezto/runcoms/zshenv
+lrwxr-xr-x    1 amarsarvepalli  staff      31 Jan 28 20:23 .zshrc -> .dotfiles/zprezto/runcoms/zshrc
