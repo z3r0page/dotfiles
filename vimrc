@@ -89,7 +89,8 @@ let g:netrw_list_hide.=',\(^\|\s\)\zs\.\S\+'
 " paste. At the bottom you should see ``-- INSERT (paste) --``.
 
 set pastetoggle=<F2>
-set clipboard=unnamed
+" set clipboard=unnamed
+set clipboard^=unnamed,unnamedplus
 
 " Mouse and backspace
 "" set mouse=a  " on OSX press ALT and click
@@ -164,7 +165,7 @@ syntax on
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors
 " wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
 set t_Co=256
-set background=dark
+" set background=dark
 " color wombat256mod
  colorscheme predawn
 " colorscheme office-dark
@@ -234,18 +235,18 @@ if exists("&undodir")
 
 
 
-let g:pymode_rope = 1
+"let g:pymode_rope = 1
 
 " Documentation
 let g:pymode_doc = 1
 let g:pymode_doc_key = 'K'
 
 "Linting
-let g:pymode_lint = 1
-let g:pymode_lint_checker = "pyflakes,pep8"
+" let g:pymode_lint = 1
+" let g:pymode_lint_checker = "pyflakes,pep8"
 
 " Auto check on save
-let g:pymode_lint_write = 1
+" let g:pymode_lint_write = 1
 
 " Support virtualenv
 let g:pymode_virtualenv = 1
@@ -255,10 +256,10 @@ let g:pymode_breakpoint = 1
 let g:pymode_breakpoint_bind = '<leader>b'
 
 " syntax highlighting
-let g:pymode_syntax = 1
-let g:pymode_syntax_all = 1
-let g:pymode_syntax_indent_errors = g:pymode_syntax_all
-let g:pymode_syntax_space_errors = g:pymode_syntax_all
+"let g:pymode_syntax = 1
+"let g:pymode_syntax_all = 1
+"let g:pymode_syntax_indent_errors = g:pymode_syntax_all
+"let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
 " Don't autofold code
 let g:pymode_folding = 0
